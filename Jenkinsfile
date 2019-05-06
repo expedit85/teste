@@ -10,6 +10,7 @@ pipeline {
             steps {
                 sh 'echo "$(whoami)@$(hostname):$(pwd)"'
                 sh 'printenv'
+                sh 'bye'
             }
         }
     }
